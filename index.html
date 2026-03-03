@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar"></div>
+
+<header class="site-header">
+  <nav class="navbar" aria-label="Navigation principale">
+    <a class="logo" href="index.html" aria-label="Retour à l'accueil">
+      <img src="images/logo.png" alt="Logo du site">
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link">ACCUEIL</a></li>
+      <li class="has-dropdown">
+        <a href="articles.html" class="nav-link nav-parent">ARTICLES</a>
+        <ul class="dropdown" aria-label="Sous-menu Articles">
+          <li><a href="articles.html" class="dropdown-link">Tous</a></li>
+          <li><a href="articles.html#geographie" class="dropdown-link">Géographie</a></li>
+          <li><a href="articles.html#gastronomie" class="dropdown-link">Gastronomie</a></li>
+          <li><a href="articles.html#culture" class="dropdown-link">Culture</a></li>
+          <li><a href="articles.html#pop" class="dropdown-link">Pop Culture</a></li>
+          <li><a href="articles.html#guide-pratique" class="dropdown-link">Guide Pratique</a></li>
+        </ul>
+      </li>
+
+      <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      <li><a href="apropos.html" class="nav-link">À PROPOS</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Découverte du Pays du Soleil Levant</h1>
+        <p>Un voyage entre tradition et modernité</p>
+        <a href="articles.html" class="btn-hero">Explorer</a>
+    </div>
+</section>
+
+<section class="intro-text">
+    <div class="container-small">
+        <p>Bienvenue sur mon guide dédié à l'archipel nippon. Que vous soyez passionné par l'histoire des shoguns, mordu de gastronomie ou fasciné par la modernité de Tokyo, j'ai rassemblé ici le meilleur du Japon pour vous aider dans vos prochaines découvertes.</p>
+        <div class="divider"></div>
+    </div>
+</section>
+
+<section class="large-articles-container">
+    
+    <article class="split-article">
+        <div class="article-content">
+            <span class="badge">Incontournable</span>
+            <h2>Hōnen‑in : un temple secret au cœur de Kyoto</h2>
+            <p>Découvrez un havre de paix, loin de la foule des circuits touristiques classiques.</p>
+            <a href="geographie.html" class="btn-read">Lire l'article</a>
+        </div>
+        <div class="article-image-container">
+            <img src="images/Temple.jpg" alt="Kyoto">
+        </div>
+    </article>
+
+    <article class="split-article reverse">
+        <div class="article-content">
+            <span class="badge">Guide Pratique</span>
+            <h2>Préparer son premier voyage</h2>
+            <p>Tout ce qu'il faut savoir pour une aventure réussie sans stress dès votre arrivée.</p>
+            <a href="guide-pratique.html" class="btn-read">Découvrir le guide</a>
+        </div>
+        <div class="article-image-container">
+            <img src="images/magazine.jpg" alt="Tokyo">
+        </div>
+    </article>
+
+</section>
+
+<section class="themes-section" id="articles">
+  <h2 class="section-title">Explorez le Japon</h2>
+
+  <div class="container-cards">
+    <div class="card">
+      <div class="card-image gastrono"></div>
+      <div class="card-content">
+        <h3>Gastronomie</h3>
+        <p>Des sushis raffinés aux ramens réconfortants, découvrez les saveurs du Japon.</p>
+        <a href="gastronomie.html" class="card-link">Voir plus</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image culture"></div>
+      <div class="card-content">
+        <h3>Culture &amp; Traditions</h3>
+        <p>Plongez dans l'univers des Samouraïs, des Geishas et des jardins zen.</p>
+        <a href="culture.html" class="card-link">Voir plus</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image tech"></div>
+      <div class="card-content">
+        <h3>Pop Culture</h3>
+        <p>Mangas, jeux vidéo et l'énergie futuriste des néons de Shibuya.</p>
+        <a href="pop.html" class="card-link">Voir plus</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image geo"></div>
+      <div class="card-content">
+        <h3>Géographie</h3>
+        <p>Explorez l'archipel : des montagnes enneigées d'Hokkaido aux plages d'Okinawa.</p>
+        <a href="geographie.html" class="card-link">Voir plus</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image pratique"></div>
+      <div class="card-content">
+        <h3>Guide Pratique</h3>
+        <p>Conseils utiles pour préparer votre voyage et éviter les pièges.</p>
+        <a href="guide-pratique.html" class="card-link">Voir plus</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    
+    <div class="footer-col">
+      <a href="index.html" class="footer-logo">
+        <img src="images/logo.png" alt="Logo du site">
+      </a>
+      <p class="footer-desc">
+        Un guide moderne pour explorer le Japon : traditions, gastronomie, pop culture et paysages.
+      </p>
+      <div class="footer-socials" aria-label="Réseaux sociaux" style="display:none;"></div>
+    </div>
+
+    <nav class="footer-col" aria-label="Liens rapides">
+      <h4>Navigation</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul class="footer-contact">
+        <li>contact@monsite.jp</li>
+        <li>01 21 23 48 00</li>
+        <li>Tokyo, Japon</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p>Recevez nos derniers articles directement par e‑mail.</p>
+      <form class="footer-newsletter" action="#" method="post">
+        <label for="newsletter-email" class="sr-only"></label>
+        <input type="email" id="newsletter-email" name="email" placeholder="Votre e‑mail" required>
+        <button type="submit">S’inscrire</button>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Pays du Soleil Levant — Tous droits réservés.</p>
+  </div>
+</footer>
+
+</body>
+</html>

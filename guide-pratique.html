@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Géographie du Japon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar"></div>
+
+<header class="site-header">
+  <nav class="navbar" aria-label="Navigation principale">
+    <a class="logo" href="index.html" aria-label="Retour à l'accueil">
+      <img src="images/logo.png" alt="Logo du site">
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link">ACCUEIL</a></li>
+      <li class="has-dropdown">
+        <a href="articles.html" class="nav-link nav-parent">ARTICLES</a>
+        <ul class="dropdown" aria-label="Sous-menu Articles">
+          <li><a href="articles.html" class="dropdown-link">Tous</a></li>
+          <li><a href="articles.html#geographie" class="dropdown-link">Géographie</a></li>
+          <li><a href="articles.html#gastronomie" class="dropdown-link">Gastronomie</a></li>
+          <li><a href="articles.html#culture" class="dropdown-link">Culture</a></li>
+          <li><a href="articles.html#pop" class="dropdown-link">Pop Culture</a></li>
+          <li><a href="articles.html#guide-pratique" class="dropdown-link">Guide Pratique</a></li>
+        </ul>
+      </li>
+
+      <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      <li><a href="apropos.html" class="nav-link">À PROPOS</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<section class="category-hero">
+  <div class="category-hero-inner">
+    <h1>Guide Pratique</h1>
+    <p>Conseils essentiels pour préparer et réussir votre voyage.</p>
+  </div>
+</section>
+
+<section class="article-detail-wrap">
+
+  <article class="article-detail" id="preparer-premier-voyage">
+    <img class="detail-cover" src="images/magazine.jpg" alt="Carnet de voyage et accessoires">
+    <div class="detail-body">
+      <div class="detail-meta">
+        <span class="detail-tag">Guide Pratique</span>
+        <span class="detail-sep">•</span>
+        <time datetime="2025-04-20">20 avr. 2025</time>
+      </div>
+
+      <h1 class="detail-title">Préparer son premier voyage</h1>
+      <p class="detail-excerpt">Budget, transports (JR Pass ?), carte IC (Suica/PASMO), e‑SIM, étiquette, santé : prends les bonnes décisions sans te noyer.</p>
+
+      <h3>Budget & transports</h3>
+      <ul>
+        <li>JR Pass utile si tu enchaînes de longues distances.</li>
+        <li>En ville : Suica/PASMO suffisent pour métro/bus.</li>
+        <li>Hébergement : du business hotel au ryokan (repas + onsen).</li>
+      </ul>
+
+      <h3>Connectivité & étiquette</h3>
+      <p>e‑SIM/pocket Wi‑Fi pour rester joint. Dans les trains : silencieux, voix basse, pas d’odeurs fortes. Chaussures à retirer dans certains lieux.</p>
+
+      <div class="detail-tip"><strong>Check‑list express :</strong> passeport, CB + espèces, carte IC, adaptateur, assurance, réservations clés.</div>
+    </div>
+  </article>
+
+  <article class="article-detail" id="hebergement-japon">
+    <img class="detail-cover" src="images/hébergement.jpg" alt="Ryokan traditionnel éclairé aux lanternes">
+    <div class="detail-body">
+      <div class="detail-meta">
+        <span class="detail-tag">Guide Pratique</span>
+        <span class="detail-sep">•</span>
+        <time datetime="2025-04-02">2 avr. 2025</time>
+      </div>
+
+      <h1 class="detail-title">Hébergement au Japon : ryokan, hôtels & capsules</h1>
+      <p class="detail-excerpt">Choisir selon budget et expérience : kaiseki, futon et onsen en ryokan ; praticité des business hotels ; curiosité des capsules.</p>
+
+      <h3>Ryokan : l’art de l’accueil</h3>
+      <p>Chambres tatami, futon, bains. Respect des horaires, douche avant immersion, serviette hors bassin (<em>onsen etiquette</em>).</p>
+
+      <h3>Capsules & hôtels business</h3>
+      <p>Capsules : expérience compacte et économique (évite si claustro). Hôtels business : propres, bien placés, souvent petit‑déj simple.</p>
+    </div>
+  </article>
+
+</section>
+
+    <footer class="site-footer">
+  <div class="footer-top">
+    
+    <div class="footer-col">
+      <a href="index.html" class="footer-logo">
+        <img src="images/logo.png" alt="Logo du site">
+      </a>
+      <p class="footer-desc">
+        Un guide moderne pour explorer le Japon : traditions, gastronomie, pop culture et paysages.
+      </p>
+
+      <div class="footer-socials" aria-label="Réseaux sociaux" style="display:none;"></div>
+    </div>
+
+    <nav class="footer-col" aria-label="Liens rapides">
+      <h4>Navigation</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul class="footer-contact">
+        <li>contact@monsite.jp</li>
+        <li>01 21 23 48 00</li>
+        <li>Tokyo, Japon</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p>Recevez nos derniers articles directement par e‑mail.</p>
+      <form class="footer-newsletter" action="#" method="post">
+        <label for="newsletter-email" class="sr-only"></label>
+        <input type="email" id="newsletter-email" name="email" placeholder="Votre e‑mail" required>
+        <button type="submit">S’inscrire</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Pays du Soleil Levant — Tous droits réservés.</p>
+  </div>
+</footer>
+
+  </div>
+</section>

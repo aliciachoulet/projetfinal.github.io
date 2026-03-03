@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<head><html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Articles - Pays du Soleil Levant</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="top-bar"></div>
+
+<header class="site-header">
+  <nav class="navbar" aria-label="Navigation principale">
+    <a class="logo" href="index.html" aria-label="Retour à l'accueil">
+      <img src="images/logo.png" alt="Logo du site">
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link">ACCUEIL</a></li>
+
+      <li class="has-dropdown">
+        <a href="articles.html" class="nav-link nav-parent">ARTICLES</a>
+        <ul class="dropdown" aria-label="Sous-menu Articles">
+          <li><a href="articles.html" class="dropdown-link">Tous</a></li>
+          <li><a href="articles.html#geographie" class="dropdown-link">Géographie</a></li>
+          <li><a href="articles.html#gastronomie" class="dropdown-link">Gastronomie</a></li>
+          <li><a href="articles.html#culture" class="dropdown-link">Culture & Traditions</a></li>
+          <li><a href="articles.html#pop" class="dropdown-link">Pop Culture</a></li>
+          <li><a href="articles.html#guide-pratique" class="dropdown-link">Guide Pratique</a></li>
+        </ul>
+      </li>
+
+      <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      <li><a href="apropos.html" class="nav-link">À PROPOS</a></li>
+    </ul>
+  </nav>
+</header>
+
+ <section class="categories-menu">
+  <div class="filters-bar" role="navigation" aria-label="Catégories">
+    <a class="pill pill-gastro" href="gastronomie.html">
+      <span class="pill-thumb" style="background-image:url(images/gastronomie.jpg)"></span>
+      <span class="pill-label">Gastronomie</span>
+    </a>
+
+    <a class="pill pill-culture" href="culture.html">
+      <span class="pill-thumb" style="background-image:url('images/lanterne.jpg')"></span>
+      <span class="pill-label">Culture</span>
+    </a>
+
+    <a class="pill pill-pop" href="pop.html">
+      <span class="pill-thumb" style="background-image:url('images/éventail.jpg')"></span>
+      <span class="pill-label">Pop Culture</span>
+    </a>
+
+    <a class="pill pill-geo" href="geographie.html">
+      <span class="pill-thumb" style="background-image:url('images/cerisier.jpg')"></span>
+      <span class="pill-label">Géographie</span>
+    </a>
+
+    <a class="pill pill-guide" href="guide-pratique.html">
+      <span class="pill-thumb" style="background-image:url('images/magazine.jpg')"></span>
+      <span class="pill-label">Guide Pratique</span>
+    </a>
+  </div>
+</section>
+ 
+</section>
+
+</body>
+<section class="articles-feed-full" aria-label="Tous les articles détaillés">
+  <h2 class="feed-title">Tous les articles</h2>
+
+  <article class="article-full" data-cat="culture" id="festivals-japonais">
+    <img src="images/Festival.jpg" alt="Lanternes de matsuri au Japon" class="cover">
+    <div class="inner">
+      <div class="meta">
+        <span class="tag">Culture</span>
+        <time datetime="2025-11-02">2 nov. 2025</time>
+      </div>
+      <h2 class="title">Festivals Japonais</h2>
+      <p class="excerpt">Des matsuri traditionnels aux fêtes modernes : lanternes, tambours, mikoshi et stands de rue. Prépare ton planning et profite sans stress.</p>
+
+      <h3>Qu’est‑ce qu’un matsuri ?</h3>
+      <p>À l’origine, un matsuri est une fête liée à un sanctuaire shinto pour honorer une divinité locale (<em>kami</em>). Aujourd’hui, c’est aussi un moment de cohésion, de musique et de cuisine de rue.</p>
+
+      <h3>Grands rendez‑vous</h3>
+      <ul>
+        <li><strong>Gion Matsuri (Kyoto, juillet)</strong> — Défilés de chars <em>yamaboko</em>.</li>
+        <li><strong>Nebuta (Aomori, début août)</strong> — Chars lumineux géants.</li>
+        <li><strong>Awa Odori (Tokushima, mi‑août)</strong> — Danses <em>bon odori</em>.</li>
+        <li><strong>Kanda Matsuri (Tokyo, mai)</strong> — Processions et bénédictions.</li>
+      </ul>
+
+      <h3>Se préparer</h3>
+      <p>Arrive tôt, repère les rues fermées, prends de l’eau l’été et un peu d’espèces pour les <em>yatai</em> (takoyaki, yakitori, kakigori). Respecte les zones autour des sanctuaires.</p>
+
+      <div class="tip"><strong>Astuce :</strong> en plein été, prévois chapeau + mini serviette. Les foules sont denses ; fixe un point de rendez‑vous si vous êtes plusieurs.</div>
+    </div>
+  </article>
+
+  <article class="article-full" data-cat="gastronomie" id="ramen">
+    <img src="images/ramen.jpg" alt="Bol de ramen fumant" class="cover">
+    <div class="inner">
+      <div class="meta">
+        <span class="tag">Gastronomie</span>
+        <time datetime="2025-10-18">18 oct. 2025</time>
+      </div>
+      <h2 class="title">Tout savoir sur les Ramen</h2>
+      <p class="excerpt">Histoire, styles, recettes et lieux incontournables. Des bouillons laiteux de Kyushu aux miso généreux de Hokkaido : comprendre, choisir et apprécier.</p>
+
+      <h3>Styles emblématiques</h3>
+      <ul>
+        <li><strong>Tonkotsu</strong> — Bouillon d’os de porc, riche et onctueux (Fukuoka).</li>
+        <li><strong>Miso</strong> — Généreux, légèrement sucré‑salé (Sapporo, Hokkaido).</li>
+        <li><strong>Shoyu</strong> — Base sauce soja, parfum équilibré (Tokyo).</li>
+        <li><strong>Shio</strong> — Clair et délicat, salinité maîtrisée.</li>
+        <li><strong>Tsukemen</strong> — Nouilles à tremper dans une sauce concentrée.</li>
+      </ul>
+
+      <h3>Le bol parfait</h3>
+      <p><em>Tare</em> (assaisonnement), <em>bouillon</em> (poulet/porc/poisson), <em>nouilles</em> (fermes ou non), <em>toppings</em> (chashu, œuf mariné, menma, nori). L’équilibre fait la magie.</p>
+
+      <h3>Commander simplement</h3>
+      <p>Souvent via un distributeur à tickets : choisis base + taille + suppléments. Le service est rapide : on mange et on laisse la place si la queue est longue.</p>
+
+      <div class="tip"><strong>Repères utiles :</strong> <em>kaedama</em> (supplément de nouilles), <em>ajitama</em> (œuf mariné), <em>negi</em> (cive).</div>
+    </div>
+  </article>
+
+  <article class="article-full" data-cat="pop" id="arcades-japonaises">
+    <img src="images/arcade.jpg" alt="Arcade japonaise colorée" class="cover">
+    <div class="inner">
+      <div class="meta">
+        <span class="tag">Pop Culture</span>
+        <time datetime="2025-09-12">12 sept. 2025</time>
+      </div>
+      <h2 class="title">Arcades Japonaises</h2>
+      <p class="excerpt">Rhythm games, UFO catchers, versus fighting : où jouer, combien prévoir, et comment respecter les codes.</p>
+
+      <h3>Types de jeux</h3>
+      <ul>
+        <li><strong>Rhythm games</strong> (Taiko no Tatsujin, MaiMai) — fun immédiat.</li>
+        <li><strong>UFO catchers</strong> — machines à pinces (budget à surveiller !).</li>
+        <li><strong>Versus fighting</strong> — communautés actives, tournois fréquents.</li>
+      </ul>
+
+      <h3>Où aller & budget</h3>
+      <p>Tokyo : Akihabara, Shinjuku, Ikebukuro. Osaka : Namba/Den‑Den Town. Prends des pièces et demande avant de filmer les joueurs pros.</p>
+    </div>
+  </article>
+
+  <article class="article-full" data-cat="geographie" id="temples-secrets-kyoto">
+    <img src="images/Temple.jpg" alt="Temple calme à Kyoto" class="cover">
+    <div class="inner">
+      <div class="meta">
+        <span class="tag">Géographie</span>
+        <time datetime="2025-08-22">22 août 2025</time>
+      </div>
+       <h1 class="detail-title">Hōnen‑in : un temple secret au cœur de Kyoto</h1>
+      <p class="detail-excerpt">Hors des sentiers battus : un refuge de mousse, de silence et de jardins méditatifs pour redécouvrir Kyoto dans sa sérénité.</p>
+
+      <h3>Quand y aller</h3>
+      <p>À l’aube ou en fin de journée, lorsque le flux du chemin des philosophes se calme.
+Privilégie les jours de semaine pour profiter pleinement du silence et du charme discret de l’entrée au portail de mousse.</p>
+
+      <h3>Sur place</h3>
+      <ul>
+        <li>Silence et respect (lieux de culte actifs).</li>
+        <li>Photos : autorisées dans le jardin, mais sans flash .</li>
+        <li>Jardins : reste sur les sentiers, ne touche pas aux mousses.</li>
+      </ul>
+
+
+      <div class="tip"><strong>Idée :</strong> combine avec un sanctuaire voisin (torii, ema, omikuji) pour varier les ambiances.</div>
+    </div>
+  </article>
+
+  <article class="article-full" data-cat="gastronomie" id="sushis-traditionnels">
+    <img src="images/sushi.jpg" alt="Sushi traditionnel japonais" class="cover">
+    <div class="inner">
+      <div class="meta">
+        <span class="tag">Gastronomie</span>
+        <time datetime="2025-08-05">5 août 2025</time>
+      </div>
+      <h2 class="title">Les sushis traditionnels</h2>
+      <p class="excerpt">Nigiri, maki, temaki… le duo riz‑poisson dans sa forme la plus pure : technique, saisonnalité et étiquette au comptoir.</p>
+
+      <h3>Formes & bases</h3>
+      <ul>
+        <li><strong>Nigiri</strong> — riz formé à la main + tranche de poisson.</li>
+        <li><strong>Maki</strong> — roulé dans le nori (classiques ou <em>hosomaki</em> fins).</li>
+        <li><strong>Temaki</strong> — cône roulé à la main.</li>
+      </ul>
+
+      <h3>Riz & poisson</h3>
+      <p>Un bon <em>shari</em> est tiède, vinaigré avec finesse ; le <em>netta</em> (garniture) suit la saison (thon, maquereau, dorade, coquillages…).</p>
+
+      <h3>Étiquette express</h3>
+      <ul>
+        <li>Sauce soja sur le poisson, pas sur le riz.</li>
+        <li>Gingembre (<em>gari</em>) entre deux bouchées.</li>
+        <li>Au comptoir (<em>omakase</em>) : suis le rythme du chef.</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="article-full" data-cat="pop" id="histoire-du-manga">
+    <img src="images/manga.jpg" alt="Magazines et planches de manga" class="cover">
+    <div class="inner">
+      <div class="meta">
+        <span class="tag">Pop Culture</span>
+        <time datetime="2025-07-14">14 juil. 2025</time>
+      </div>
+      <h2 class="title">Histoire du Manga</h2>
+      <p class="excerpt">Des feuilles illustrées aux best‑sellers mondiaux : genres, production, diffusion, et pistes de lecture pour bien commencer.</p>
+
+      <h3>Genres & codes</h3>
+      <p><strong>Shōnen</strong> (aventure/énergie), <strong>Shōjo</strong> (sentiments/esthétique), <strong>Seinen</strong> (thèmes adultes). Chaque genre a ses conventions narratives et visuelles.</p>
+
+      <h3>Économie du manga</h3>
+      <p>Prépublications en magazine, puis volumes reliés (<em>tankōbon</em>). Les adaptations animées démultiplient la portée des séries.</p>
+
+      <h3>Commencer sa bibliothèque</h3>
+      <p>Teste un ou deux tomes avant d’investir dans une longue série. Les rééditions “deluxe” offrent souvent un meilleur papier et des bonus.</p>
+    </div>
+  </article>
+
+  <article class="article-full" data-cat="geographie" id="okinawa-ile-paradisiaque">
+    <img src="images/okinawa.jpg" alt="Mer turquoise et ciel dégagé à Okinawa" class="cover">
+    <div class="inner">
+      <div class="meta">
+        <span class="tag">Géographie</span>
+        <time datetime="2025-06-29">29 juin 2025</time>
+      </div>
+      <h2 class="title">Okinawa, l’île paradisiaque</h2>
+      <p class="excerpt">Lagons turquoise, culture Ryukyu, cuisine locale : un autre visage du Japon, idéal pour déconnecter après Tokyo ou Kyoto.</p>
+
+      <h3>Plages & îles</h3>
+      <p>Miyako et Ishigaki offrent des lagons superbes. Sur l’île principale, le nord est plus sauvage, parfait pour un road trip.</p>
+
+      <h3>Pratique</h3>
+      <ul>
+        <li>Périodes idéales : fin de printemps, début d’automne.</li>
+        <li>Vigilance : typhons, soleil fort, méduses selon saisons.</li>
+        <li>Location de voiture recommandée hors villes.</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="article-full" data-cat="culture" id="monde-des-geishas">
+    <img src="images/geishas.jpg" alt="Quartier traditionnel à Kyoto" class="cover">
+    <div class="inner">
+      <div class="meta">
+        <span class="tag">Culture</span>
+        <time datetime="2025-06-01">1 juin 2025</time>
+      </div>
+      <h2 class="title">Le monde des Geishas</h2>
+      <p class="excerpt">Formation, arts (danse, shamisen), codes vestimentaires, et conseils pour observer avec respect à Kyoto (Gion, Pontochō).</p>
+
+      <h3>Parcours & arts</h3>
+      <p>De <em>shikomi</em> (préparation) à <em>maiko</em> (apprentie), puis <em>geiko</em> (Kyoto). Disciplines : danse, musique, chant, conversation cultivée.</p>
+
+      <h3>Voir sans déranger</h3>
+      <p>Rester discret, ne pas bloquer les ruelles pour une photo, privilégier les représentations publiques et les maisons de thé ouvertes aux visiteurs.</p>
+    </div>
+  </article>
+
+  <article class="article-full" data-cat="geographie" id="hokkaido-ile-du-nord">
+    <img src="images/Hokkaido.jpg" alt="Paysage alpin à Hokkaido" class="cover">
+    <div class="inner">
+      <div class="meta">
+        <span class="tag">Géographie</span>
+        <time datetime="2025-05-15">15 mai 2025</time>
+      </div>
+      <h2 class="title">Hokkaido, l’île du Nord</h2>
+      <p class="excerpt">Parcs immenses, hivers poudreux, étés fleuris : nature XXL et gastronomie généreuse (crustacés, laitages, ramen miso).</p>
+
+      <h3>Saisons & paysages</h3>
+      <p>Hiver : ski à Niseko, onsen fumants. Été : champs de fleurs à Furano/Biei, randonnées à Daisetsuzan et Shiretoko.</p>
+
+      <h3>Se déplacer</h3>
+      <p>JR pour les villes, voiture pour les coins reculés. Anticipe des distances plus longues qu’ailleurs au Japon.</p>
+    </div>
+  </article>
+
+  <article class="article-full" data-cat="guide" id="preparer-premier-voyage">
+    <img src="images/magazine.jpg" alt="Carnet de préparation de voyage" class="cover">
+    <div class="inner">
+      <div class="meta">
+        <span class="tag">Guide Pratique</span>
+        <time datetime="2025-04-20">20 avr. 2025</time>
+      </div>
+      <h2 class="title">Préparer son premier voyage</h2>
+      <p class="excerpt">Budget, transports (JR Pass ?), carte IC (Suica/PASMO), e‑SIM, étiquette, santé : prends les bonnes décisions sans te noyer.</p>
+
+      <h3>Budget & transports</h3>
+      <ul>
+        <li>JR Pass utile si tu enchaînes les longues distances (Tokyo ⇄ Hiroshima/Kyoto…).</li>
+        <li>En ville : Suica/PASMO suffit pour métro/bus.</li>
+        <li>Hébergement : du business hotel au ryokan (repas + onsen).</li>
+      </ul>
+
+      <h3>Connectivité & étiquette</h3>
+      <p>e‑SIM/pocket Wi‑Fi pour rester joint. Dans les trains : téléphone silencieux, voix basse, pas d’odeurs fortes. Chaussures à retirer dans certains lieux.</p>
+
+      <div class="tip"><strong>Check‑list express :</strong> passeport, CB + espèces, carte IC, adaptateur, assurance, réservations clés.</div>
+    </div>
+  </article>
+
+  <article class="article-full" data-cat="guide" id="hebergement-japon">
+    <img src="images/hébergement.jpg" alt="Ruelle traditionnelle avec lanternes" class="cover">
+    <div class="inner">
+      <div class="meta">
+        <span class="tag">Guide Pratique</span>
+        <time datetime="2025-04-02">2 avr. 2025</time>
+      </div>
+      <h2 class="title">Hébergement au Japon : ryokan, hôtels & capsules</h2>
+      <p class="excerpt">Choisir selon budget et expérience : repas kaiseki, futon et onsen en ryokan ; praticité des business hotels ; curiosité des capsules.</p>
+
+      <h3>Ryokan : l’art de l’accueil</h3>
+      <p>Chambres tatami, futon, bains. Respect des horaires, douche avant immersion, serviette hors bassin (<em>onsen etiquette</em>).</p>
+
+      <h3>Capsules & hôtels business</h3>
+      <p>Capsules : expérience compacte et économique (évite si tu es claustro). Hôtels business : propres, bien placés, souvent petit‑déj simple.</p>
+    </div>
+  </article>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    
+    <div class="footer-col">
+      <a href="index.html" class="footer-logo">
+        <img src="images/logo.png" alt="Logo du site">
+      </a>
+      <p class="footer-desc">
+        Un guide moderne pour explorer le Japon : traditions, gastronomie, pop culture et paysages.
+      </p>
+      <div class="footer-socials" aria-label="Réseaux sociaux" style="display:none;"></div>
+    </div>
+
+    <nav class="footer-col" aria-label="Liens rapides">
+      <h4>Navigation</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul class="footer-contact">
+        <li>contact@monsite.jp</li>
+        <li>01 21 23 48 00</li>
+        <li>Tokyo, Japon</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p>Recevez nos derniers articles directement par e‑mail.</p>
+      <form class="footer-newsletter" action="#" method="post">
+        <label for="newsletter-email" class="sr-only"></label>
+        <input type="email" id="newsletter-email" name="email" placeholder="Votre e‑mail" required>
+        <button type="submit">S’inscrire</button>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Pays du Soleil Levant — Tous droits réservés.</p>
+  </div>
+</footer>
+
+<body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gastronomie Japonaise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar"></div>
+
+<header class="site-header">
+  <nav class="navbar" aria-label="Navigation principale">
+    <a class="logo" href="index.html" aria-label="Retour à l'accueil">
+      <img src="images/logo.png" alt="Logo du site">
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link">ACCUEIL</a></li>
+      <li class="has-dropdown">
+        <a href="articles.html" class="nav-link nav-parent">ARTICLES</a>
+        <ul class="dropdown" aria-label="Sous-menu Articles">
+          <li><a href="articles.html" class="dropdown-link">Tous</a></li>
+          <li><a href="articles.html#geographie" class="dropdown-link">Géographie</a></li>
+          <li><a href="articles.html#gastronomie" class="dropdown-link">Gastronomie</a></li>
+          <li><a href="articles.html#culture" class="dropdown-link">Culture</a></li>
+          <li><a href="articles.html#pop" class="dropdown-link">Pop Culture</a></li>
+          <li><a href="articles.html#guide-pratique" class="dropdown-link">Guide Pratique</a></li>
+        </ul>
+      </li>
+
+      <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      <li><a href="apropos.html" class="nav-link">À PROPOS</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="category-hero">
+  <div class="category-hero-inner">
+    <h1>Gastronomie</h1>
+    <p>Plats typiques, traditions culinaires et saveurs du Japon.</p>
+  </div>
+</section>
+
+<section class="article-detail-wrap">
+
+  <article class="article-detail" id="ramen">
+    <img class="detail-cover" src="images/ramen.jpg" alt="Bol de ramen fumant avec toppings">
+    <div class="detail-body">
+      <div class="detail-meta">
+        <span class="detail-tag">Gastronomie</span>
+        <span class="detail-sep">•</span>
+        <time datetime="2025-10-18">18 oct. 2025</time>
+      </div>
+
+      <h1 class="detail-title">Tout savoir sur les Ramen</h1>
+      <p class="detail-excerpt">Histoire, styles, recettes et lieux incontournables. Des bouillons laiteux de Kyushu aux miso de Hokkaido : comprendre, choisir et savourer.</p>
+
+      <h3>Styles emblématiques</h3>
+      <ul>
+        <li><strong>Tonkotsu</strong> — Bouillon d’os de porc, riche et onctueux (Fukuoka).</li>
+        <li><strong>Miso</strong> — Généreux, légèrement sucré‑salé (Sapporo).</li>
+        <li><strong>Shoyu</strong> — Base sauce soja, parfum équilibré (Tokyo).</li>
+        <li><strong>Shio</strong> — Clair, délicat, salinité maîtrisée.</li>
+        <li><strong>Tsukemen</strong> — Nouilles à tremper dans une sauce concentrée.</li>
+      </ul>
+
+      <h3>Le bol parfait</h3>
+      <p><em>Tare</em> (assaisonnement), <em>bouillon</em> (poulet/porc/poisson), <em>nouilles</em> (fermes ou non), <em>toppings</em> (chashu, œuf mariné, menma, nori) : l’équilibre fait la magie.</p>
+
+      <div class="detail-tip"><strong>Repères utiles :</strong> <em>kaedama</em> (supplément de nouilles), <em>ajitama</em> (œuf mariné), <em>negi</em> (cive).</div>
+    </div>
+  </article>
+
+  <article class="article-detail" id="sushis-traditionnels">
+    <img class="detail-cover" src="images/sushi.jpg" alt="Assortiment de sushis traditionnels">
+    <div class="detail-body">
+      <div class="detail-meta">
+        <span class="detail-tag">Gastronomie</span>
+        <span class="detail-sep">•</span>
+        <time datetime="2025-08-05">5 août 2025</time>
+      </div>
+
+      <h1 class="detail-title">Les sushis traditionnels</h1>
+      <p class="detail-excerpt">Nigiri, maki, temaki : la simplicité exigeante du duo riz‑poisson. Technique, saisonnalité et étiquette au comptoir.</p>
+
+      <h3>Formes & bases</h3>
+      <ul>
+        <li><strong>Nigiri</strong> — Riz formé à la main + tranche de poisson.</li>
+        <li><strong>Maki</strong> — Roulé dans le nori (classiques ou <em>hosomaki</em> fins).</li>
+        <li><strong>Temaki</strong> — Cône roulé à la main, convivial.</li>
+      </ul>
+
+      <h3>Riz & poisson</h3>
+      <p>Le <em>shari</em> idéal est tiède, finement vinaigré. Le <em>netta</em> (garniture) suit la saison : thon, maquereau, dorade, coquillages…</p>
+
+      <h3>Étiquette express</h3>
+      <ul>
+        <li>Sauce soja sur le poisson, pas sur le riz.</li>
+        <li>Gingembre (<em>gari</em>) entre deux bouchées.</li>
+        <li>Au comptoir (<em>omakase</em>) : suis le rythme du chef.</li>
+      </ul>
+    </div>
+  </article>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    
+    <div class="footer-col">
+      <a href="index.html" class="footer-logo">
+        <img src="images/logo.png" alt="Logo du site">
+      </a>
+      <p class="footer-desc">
+        Un guide moderne pour explorer le Japon : traditions, gastronomie, pop culture et paysages.
+      </p>
+
+      <div class="footer-socials" aria-label="Réseaux sociaux" style="display:none;"></div>
+    </div>
+
+    <nav class="footer-col" aria-label="Liens rapides">
+      <h4>Navigation</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul class="footer-contact">
+        <li>contact@monsite.jp</li>
+        <li>01 21 23 48 00</li>
+        <li>Tokyo, Japon</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p>Recevez nos derniers articles directement par e‑mail.</p>
+      <form class="footer-newsletter" action="#" method="post">
+        <label for="newsletter-email" class="sr-only"></label>
+        <input type="email" id="newsletter-email" name="email" placeholder="Votre e‑mail" required>
+        <button type="submit">S’inscrire</button>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Pays du Soleil Levant — Tous droits réservés.</p>
+  </div>
+</footer>
+
+</body>
+</html>
