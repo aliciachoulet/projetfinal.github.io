@@ -11,6 +11,7 @@
 <div class="top-bar"></div>
 
 <header class="site-header">
+
   <nav class="navbar" aria-label="Navigation principale">
     <a class="logo" href="index.html" aria-label="Retour à l'accueil">
       <img src="images/logo.png" alt="Logo du site">
@@ -18,41 +19,32 @@
 
     <ul class="nav-links">
       <li><a href="index.html" class="nav-link">ACCUEIL</a></li>
-      <li class="has-dropdown">
-        <a href="articles.html" class="nav-link nav-parent">ARTICLES</a>
-        <ul class="dropdown" aria-label="Sous-menu Articles">
-          <li><a href="articles.html" class="dropdown-link">Tous</a></li>
-          <li><a href="articles.html#geographie" class="dropdown-link">Géographie</a></li>
-          <li><a href="articles.html#gastronomie" class="dropdown-link">Gastronomie</a></li>
-          <li><a href="articles.html#culture" class="dropdown-link">Culture</a></li>
-          <li><a href="articles.html#pop" class="dropdown-link">Pop Culture</a></li>
-          <li><a href="articles.html#guide-pratique" class="dropdown-link">Guide Pratique</a></li>
-        </ul>
-      </li>
-
+      <li><a href="articles.html" class="lien-nav">ARTICLES</a>
+     </li>
       <li><a href="contact.html" class="nav-link">CONTACT</a></li>
       <li><a href="apropos.html" class="nav-link">À PROPOS</a></li>
     </ul>
   </nav>
+
 </header>
 
-  <main>
-    <section class="contact-section">
-      <h1>Envoie-nous un message, nous te rappelons rapidement</h1>
-    <form class="contact-form" action="https://formsubmit.co/aliciachoulet@gmail.com" method="POST">
-        <div class="row">
-          <input type="text" name="nom" placeholder="Nom">
-          <input type="text" name="prenom" placeholder="Prénom">
-        </div>
-        <input type="email" name="email" placeholder="Adresse e-mail">
-        <input type="tel" name="telephone" placeholder="Téléphone">
-        <textarea name="message" placeholder="Message"></textarea>
-        <div class="btn-container">
-          <button type="submit">Envoi</button>
-        </div>
-      </form>
-    </section>
-  </main>
+<main>
+  <section class="contact-section">
+    <h1>Envoie-nous un message, nous te rappelons rapidement</h1>
+  <form class="contact-form" action="https://formsubmit.co/aliciachoulet@gmail.com" method="POST">
+      <div class="row">
+       <input type="text" name="nom" placeholder="Nom">
+        <input type="text" name="prenom" placeholder="Prénom">
+      </div>
+       <input type="email" name="email" placeholder="Adresse e-mail">
+       <input type="tel" name="telephone" placeholder="Téléphone">
+      <textarea name="message" placeholder="Message"></textarea>
+      <div class="btn-container">
+        <button type="submit">Envoi</button>
+      </div>
+    </form>
+  </section>
+</main>
 
 <footer class="site-footer">
   <div class="footer-top">
@@ -64,7 +56,6 @@
       <p class="footer-desc">
         Un guide moderne pour explorer le Japon : traditions, gastronomie, pop culture et paysages.
       </p>
-
       <div class="footer-socials" aria-label="Réseaux sociaux" style="display:none;"></div>
     </div>
 
@@ -96,10 +87,12 @@
         <button type="submit">S’inscrire</button>
       </form>
     </div>
+
   </div>
 
   <div class="footer-bottom">
     <p>© <span id="year"></span> Pays du Soleil Levant — Tous droits réservés.</p>
+  
   </div>
 </footer>
 
